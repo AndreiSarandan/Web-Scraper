@@ -1,6 +1,5 @@
-# Python-Web-Scraper
-This file has two functions, representing different web-crawlers.
+Python Web Scraper
 
-def wordSearch() First works like a search engine on BBC webpage. It looks for articles containing a specific word or phrase on the BBC webpage. Then it simply returns the title of the article, followed by the link and the publish-date. The function allows users to keep track of specific topics.
+This Python-based web scraper utilizes BeautifulSoup (BS4) and requests to extract news articles from the BBC website. The application fetches headlines, summaries, and article links, allowing users to quickly access the latest news. By parsing HTML elements, it efficiently retrieves relevant information while ensuring structured data extraction.
 
-def bbc(): This program works similarly to the other but it works for the Home page of BBC.
+This scraper can be extended with automation, filtering options, and data storage for further analysis or integration with other applications.
